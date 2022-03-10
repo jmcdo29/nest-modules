@@ -16,7 +16,7 @@ import {
 } from './interfaces/bitcoin-module.interface';
 
 @Module({
-  imports: [BitcoinRpcModule],
+  // imports: [BitcoinRpcModule],
   exports: [BitcoinService],
   providers: [
     {
